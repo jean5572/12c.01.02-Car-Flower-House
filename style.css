@@ -1,0 +1,82 @@
+.baseHouse {
+  stroke: lightcoral;
+  fill: lightcoral;
+  stroke-width: 5;
+}
+.car1 {
+  stroke: blue;
+  fill: blue;
+  stroke-width: 5;
+}
+.car2 {
+  stroke: blue;
+  fill: blue;
+  stroke-width: 5;
+}
+
+.car3 {
+  stroke: black;
+  fill: black;
+  stroke-width: 5;
+}
+
+.car4,
+.car5 {
+  fill: lightblue;
+}
+
+.leaf {
+  fill: green;
+}
+
+.line {
+  stroke: green;
+  stroke-width: 3;
+}
+
+.rose {
+  fill: red;
+}
+
+.roof {
+  stroke: rgb(219, 168, 80);
+  fill: rgb(219, 168, 80);
+  stroke-width: 5;
+}
+
+.window {
+  fill: lightblue;
+}
+
+.door {
+  fill: rgb(231, 200, 112);
+}
+.door1 {
+  fill: rgb(64, 64, 64);
+}
+
+.carDrive {
+  animation: drive 3s;
+}
+
+.moveDoor {
+    animation: openDoor 3s;
+}
+
+@keyframes drive {
+  0% {
+    transform: translate(10px, 10px);
+  }
+  100% {
+    transform: translate(200px, 10px);
+  }
+}
+
+@keyframes openDoor{
+  0% {
+    transform: translate(0px, 0px);
+  }
+  100% {
+    transform: translate(30px, 0);
+  }
+}
